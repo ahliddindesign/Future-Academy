@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* asosy-styles */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+/* ildiz-styles */
+:root {
+  --bosh-color : #E1E1E1;
+  --title-color: #fff;
+  --color-1    : #FDC221;
+  --color-2    : #F79E0E;
+  --color-3    : #294199;
+  --color-4    : #0F124D;
+  --color-5    : #383838;
+  --color-bort : #BFBFBF;
+  --font-1     : 'Nunito Sans', sans-serif;
+  --font-2     : 'Roboto Slab', serif;
+
+}
+
+/* body-styles */
+body p {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body,
+html {
+  height    : 100%;
+  min-height: 100vh;
+  margin    : 0px;
+}
+
+body {
+  display    : grid;
+  min-height : 100vh;
+  font-family: var(--font-2);
+  padding    : 0%;
+  margin     : 0%;
+}
+
+/* .container-staticga-style */
+.container {
+  padding: 0px 10px;
+}
+
+#button {
+  border    : 1px solid var(--color-1);
+  background: none;
+  color     : #FFAE2B;
+  padding   : 15px 25px;
+  transition: all .5s ease;
+}
+
+#button:hover {
+  box-shadow      : 0px 0px 5px var(--color-1);
+  border          : 1px solid #ffae2b00;
+  background-color: rgba(255, 255, 255, 0.068);
+  -ms-filter      : "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=108, Color=#FFAE2B)";
+  text-shadow     : 1px 3px 5px #FFAE2B;
+  filter          : progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color=#FFAE2B);
+}
+
+/* header-styles */
+.homecontainer {
+  background-color: var(--color-4);
+}
+
+.container .navbar {
+  margin-bottom: 30px;
+  padding      : 15px 3px;
+}
+
+.container .navbar-left li a {
+  color      : var(--bosh-color);
+  margin-left: 20px;
+  margin-top : 10px;
+  font-family: var(--font-2);
+
+}
+
+.container .navbar-left li a:hover {
+  background-color: #0f124d00;
+}
+
+.container .navbar-right li a {
+  color        : var(--color-1);
+  border-bottom: 1px solid var(--color-1);
+  padding      : 2px 3px;
+  margin-left  : 20px;
+  margin-top   : 20px;
+  font-family  : var(--font-2);
+}
+
+.container .navbar-right li a:hover {
+  background-color: #0f124d00;
+
+}
+
+.container .hed-row .hedr-lg-6__1 .hedr-lg-4__1 p i {
+  margin-right: 10px;
+  color       : var(--color-1);
+
+}
+
+.container .hed-row .hedr-lg-6__1 .hedr-lg-4__1 {
+  margin-right: 20px;
+  margin-top  : 20px;
+}
+
+.container .hed-row .hedr-lg-6__1 h1 {
+  font-size     : 40px;
+  font-weight   : 500;
+  text-transform: capitalize;
+
+}
+
+.container .hed-row .hedr-lg-6__1 h1 span {
+  color: var(--color-1);
+
+}
+
+.container .hed-row .hedr-lg-6__1 p {
+  font-family: 'Nunito Sans';
+  font-style : normal;
+  font-weight: 400;
+  font-size  : 18px;
+  line-height: 27px;
+  color      : #E1E1E1;
+
+}
+
+.container .hed-row .hedr-lg-6__1 p span {
+  color: var(--color-1);
+
+}
+
+.container .hed-row .hedr-lg-6__1 {
+  color  : var(--bosh-color);
+  padding: 10px 30px;
+
+}
+
+.btn-row__lg {
+  background : linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
+  -ms-filter : "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=108, Color=#FFf)";
+  /*IE 8*/
+  text-shadow: 1px 3px 3px #FFf;
+  /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  filter     : progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#FFf);
+  /*IE 5.5-7*/
+  border     : none;
+}
+
+/* header-styles */
+
+/* pages-styles */
+.pcontainer .ptittle span {
+  color: var(--color-1);
+}
+.pcontainer .pactittle {
+  color: var(--color-1);
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.pcontainer .ptittle {
+  color: var(--color-5);
+  font-weight: 500;
+  font-size: 37px;
+  font-style: normal;
+  font-family: var(--font-1);
+
+}
+
+/* pages-styles */
